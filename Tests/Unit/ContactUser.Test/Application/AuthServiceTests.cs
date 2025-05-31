@@ -72,7 +72,6 @@ public class AuthServiceTests
             Password = "password"
         };
 
-        // ✅ To‘g‘ri hash va salt yaratish
         var hashed = PasswordHasher.Hasher("password");
 
         var user = new User
